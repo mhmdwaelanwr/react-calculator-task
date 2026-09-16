@@ -1,49 +1,33 @@
 # React Calculator
 
-A simple and responsive calculator built with React and Vite. It supports the main arithmetic operations with a clean interface that works well on desktop and mobile screens.
+A simple calculator task made with React and normal JavaScript.
 
-> **DEPI Front-End Development Task**  
-> This repository contains a practical assignment completed as part of the **Digital Egypt Pioneers Initiative (DEPI)** Front-End Development training track. It documents hands-on progress through the program and is intended as a learning/task submission rather than a production product.
+This version does not use JSX or Vite. React is loaded from CDN inside `index.html`, and the calculator is written with `React.createElement()`.
 
-## Preview
+## Files
 
-![Calculator Preview](assets/screenshots/calculator-preview.png)
+- `index.html` - page and React CDN links
+- `style.css` - calculator design
+- `script.js` - calculator logic and React code
 
 ## Features
 
-- Addition, subtraction, multiplication and division
-- Percentage calculation
-- Positive and negative numbers
+- Add, subtract, multiply and divide
 - Decimal numbers
-- Delete last digit
+- Percentage
+- Change positive and negative sign
+- Delete last number
 - Clear calculator
-- Responsive design
-
-## Built With
-
-- React
-- Vite
-- JavaScript
-- CSS
 
 ## Live Demo
 
 https://react-calculator-task-mhmdwaelanwrs-projects.vercel.app
 
-## Run Locally
+## Run
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
+Open `index.html` in a browser.
 
 ---
 
-**Training:** Digital Egypt Pioneers Initiative (DEPI) — Front-End Development Track  
-**Author:** [Mohamed Anwar](https://github.com/mhmdwaelanwr)
+DEPI Front-End Development Task  
+Mohamed Anwar
