@@ -119,7 +119,7 @@ function App() {
       <div className="calculator">
         <div className="top-text">
           <span>Calculator</span>
-          <small>React Task</small>
+          <small>Practice Project</small>
         </div>
 
         <div className="screen">
@@ -156,7 +156,7 @@ function App() {
           <button className="orange" onClick={calculate}>=</button>
         </div>
 
-        <p className="note">Simple calculator made with React useState.</p>
+        <p className="note">By Mohamed Anwar</p>
       </div>
     </main>
   )
