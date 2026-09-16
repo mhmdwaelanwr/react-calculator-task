@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React Calculator</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="root"></div>
 
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <div class="calculator">
+    <h2>Calculator</h2>
+
+    <input type="text" id="screen" value="0" readonly>
+
+    <table>
+      <tr>
+        <td><button onclick="clearScreen()">AC</button></td>
+        <td><button onclick="changeSign()">+/-</button></td>
+        <td><button onclick="percentage()">%</button></td>
+        <td><button onclick="setOperator('/')">/</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="addNumber('7')">7</button></td>
+        <td><button onclick="addNumber('8')">8</button></td>
+        <td><button onclick="addNumber('9')">9</button></td>
+        <td><button onclick="setOperator('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="addNumber('4')">4</button></td>
+        <td><button onclick="addNumber('5')">5</button></td>
+        <td><button onclick="addNumber('6')">6</button></td>
+        <td><button onclick="setOperator('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="addNumber('1')">1</button></td>
+        <td><button onclick="addNumber('2')">2</button></td>
+        <td><button onclick="addNumber('3')">3</button></td>
+        <td><button onclick="setOperator('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="deleteNumber()">DEL</button></td>
+        <td><button onclick="addNumber('0')">0</button></td>
+        <td><button onclick="addDot()">.</button></td>
+        <td><button onclick="calculate()">=</button></td>
+      </tr>
+    </table>
+
+    <p>By Mohamed Anwar</p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
