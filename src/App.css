@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef1f5;
+  color: #111827;
+}
+
+button {
+  font: inherit;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 350px;
+  background: #161a22;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 18px 40px rgba(20, 25, 35, 0.22);
+}
+
+.top-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.top-text span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-text small {
+  color: #9ca3af;
+}
+
+.screen {
+  background: #0d1118;
+  min-height: 110px;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: right;
+  overflow: hidden;
+}
+
+.small-operation {
+  min-height: 20px;
+  color: #818a99;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.result {
+  color: white;
+  font-size: 40px;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  height: 62px;
+  border: 0;
+  border-radius: 14px;
+  background: #2a303b;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.15s ease;
+}
+
+.buttons button:hover {
+  background: #343c49;
+}
+
+.buttons button:active {
+  transform: scale(0.96);
+}
+
+.buttons .gray {
+  background: #4b5563;
+}
+
+.buttons .orange {
+  background: #f59e0b;
+  color: #111827;
+  font-weight: bold;
+}
+
+.buttons .orange:hover {
+  background: #fbbf24;
+}
+
+.buttons .delete {
+  font-size: 15px;
+}
+
+.note {
+  color: #8b95a5;
+  text-align: center;
+  font-size: 12px;
+  margin: 14px 0 0;
+  margin-top: 14px;
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding: 12px;
+  }
+
+  .calculator {
+    padding: 16px;
+  }
+
+  .buttons button {
+    height: 58px;
+  }
+}
