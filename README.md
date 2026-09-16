@@ -1,23 +1,31 @@
-# React Calculator
+# Simple Calculator
 
-A simple calculator task made with React and normal JavaScript.
+A basic calculator training task made with HTML, CSS and JavaScript.
 
-This version does not use JSX or Vite. React is loaded from CDN inside `index.html`, and the calculator is written with `React.createElement()`.
+The calculator interface is written directly in HTML using buttons and a table. JavaScript is only used for the calculator functions.
 
 ## Files
 
-- `index.html` - page and React CDN links
-- `style.css` - calculator design
-- `script.js` - calculator logic and React code
+- `index.html` - calculator interface
+- `style.css` - simple style
+- `script.js` - calculator functions
 
 ## Features
 
-- Add, subtract, multiply and divide
+- Addition
+- Subtraction
+- Multiplication
+- Division
 - Decimal numbers
 - Percentage
-- Change positive and negative sign
-- Delete last number
-- Clear calculator
+- Positive and negative numbers
+- Delete and clear buttons
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
 
 ## Live Demo
 
