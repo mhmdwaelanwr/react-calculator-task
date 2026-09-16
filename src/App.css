@@ -43,8 +43,29 @@ button {
   font-weight: bold;
 }
 
-.top-text small {
-  color: #9ca3af;
+.color-dots {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: block;
+}
+
+.red {
+  background: #ff5f57;
+}
+
+.yellow {
+  background: #febc2e;
+}
+
+.green {
+  background: #28c840;
 }
 
 .screen {
