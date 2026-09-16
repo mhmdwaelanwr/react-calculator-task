@@ -1,21 +1,33 @@
-# React Calculator Task
+# React Calculator
 
-A simple calculator application made with React and Vite for a front-end training task.
+A simple and responsive calculator built with React and Vite. It supports the main arithmetic operations with a clean interface that works well on desktop and mobile screens.
+
+## Preview
+
+![Calculator Preview](assets/screenshots/calculator-preview.png)
 
 ## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Percentage
-- Positive / negative numbers
+- Addition, subtraction, multiplication and division
+- Percentage calculation
+- Positive and negative numbers
 - Decimal numbers
 - Delete last digit
 - Clear calculator
-- Responsive layout
+- Responsive design
 
-## Run locally
+## Built With
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Live Demo
+
+https://react-calculator-task-mhmdwaelanwrs-projects.vercel.app
+
+## Run Locally
 
 ```bash
 npm install
@@ -27,3 +39,7 @@ npm run dev
 ```bash
 npm run build
 ```
+
+---
+
+Made by **Mohamed Anwar**
