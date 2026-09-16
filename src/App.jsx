@@ -119,7 +119,11 @@ function App() {
       <div className="calculator">
         <div className="top-text">
           <span>Calculator</span>
-          <small>Practice Project</small>
+          <div className="color-dots">
+            <i className="dot red"></i>
+            <i className="dot yellow"></i>
+            <i className="dot green"></i>
+          </div>
         </div>
 
         <div className="screen">
